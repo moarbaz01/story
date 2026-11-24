@@ -11,7 +11,7 @@ export function useAmbientAudio(src: string) {
   const checkedRef = useRef(false);
 
   useEffect(() => {
-    const frame = requestAnimationFrame(() => setMutedState(localStorage.getItem("nisha-muted") !== "false"));
+    const frame = requestAnimationFrame(() => setMutedState(localStorage.getItem("nisha-muted") === "true"));
     return () => {
       cancelAnimationFrame(frame);
       audioRef.current?.pause();

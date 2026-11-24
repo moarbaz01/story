@@ -2,7 +2,7 @@
 export const content = {
   title: "A Little Universe Called Nisha",
   name: "NISHA",
-  musicPath: "/audio/nisha-ambience.mp3",
+  musicPath: "/audio/nisha-ambience.wav",
   intro: [
     "Somewhere in this huge universe…",
     "Among billions of people…",
